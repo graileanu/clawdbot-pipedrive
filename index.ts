@@ -100,7 +100,7 @@ function setupSkillTemplate(): void {
 type PipedriveConfig = {
   apiKey?: string;
   domain?: string;
-  siteUrl?: string; // alias for domain
+  siteUrl?: string; // backwards compat alias for domain (not documented)
 };
 
 type ClawdbotPluginApi = {
@@ -142,7 +142,7 @@ const plugin: ClawdbotPluginDefinition = {
       domain: {
         label: "Company Domain",
         placeholder: "yourcompany",
-        help: "The subdomain of your Pipedrive account (e.g., 'acme' from acme.pipedrive.com). Also accepts 'siteUrl' as alias.",
+        help: "The subdomain of your Pipedrive account (e.g., 'acme' from acme.pipedrive.com)",
       },
     },
   },
