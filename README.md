@@ -14,13 +14,21 @@ Pipedrive CRM integration plugin for [Clawdbot](https://clawd.bot).
 
 ## Installation
 
+### Quick Install (recommended)
+
+```bash
+curl -sL https://raw.githubusercontent.com/graileanu/clawdbot-pipedrive/master/install.sh | bash
+```
+
+This installs the plugin AND sets up the skill template (won't overwrite existing files).
+
+### Manual Install
+
 ```bash
 clawdbot plugins install clawdbot-pipedrive
 ```
 
-Or via npm directly: https://www.npmjs.com/package/clawdbot-pipedrive
-
-Manual: copy to `~/.clawdbot/extensions/pipedrive/`
+npm: https://www.npmjs.com/package/clawdbot-pipedrive
 
 ## Configuration
 
