@@ -1,6 +1,6 @@
 # Pipedrive CRM Workflows
 
-> Copy this file to `~/.clawdbot/skills/pipedrive-crm/SKILL.md` and customize for your organization.
+> Copy this file to `~/.clawdbot/skills/pipedrive/SKILL.md` and customize for your organization.
 
 ## Deal Naming Convention
 
