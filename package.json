@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Pipedrive CRM integration for Clawdbot",
-  "author": "Your Name",
+  "author": "graileanu",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourorg/clawdbot-pipedrive"
+    "url": "https://github.com/graileanu/clawdbot-pipedrive"
   },
   "clawdbot": {
     "extensions": ["./index.ts"]
