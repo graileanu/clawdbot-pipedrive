@@ -1,6 +1,6 @@
 {
   "name": "clawdbot-pipedrive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Pipedrive CRM integration for Clawdbot",
   "author": "graileanu",
@@ -10,7 +10,9 @@
     "url": "https://github.com/graileanu/clawdbot-pipedrive"
   },
   "clawdbot": {
-    "extensions": ["./index.ts"]
+    "extensions": [
+      "./index.ts"
+    ]
   },
   "dependencies": {
     "@sinclair/typebox": "0.34.47"
